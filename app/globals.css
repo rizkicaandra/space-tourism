@@ -1,0 +1,98 @@
+@import 'tailwindcss';
+
+:root {
+  /* --shadow-custom-button: 0 8px 8px -4px rgba(73, 93, 207, 0.05); */
+}
+
+@theme inline {
+  /* spacing */
+  --spacing-0.25: 0.063rem;
+  --spacing-1.75: 0.438rem;
+  --spacing-2.25: 0.563rem;
+  --spacing-4.5: 1.125rem;
+  --spacing-8.5: 2.125rem;
+  --spacing-8.75: 2.188rem;
+  --spacing-9.25: 2.313rem;
+  --spacing-11.75: 2.938rem;
+  --spacing-12.25: 3.063rem;
+  --spacing-17.75: 4.438rem;
+  --spacing-18: 4.5rem;
+  --spacing-25: 6.25rem;
+  --spacing-25.5: 6.375rem;
+  --spacing-27.76: 6.938rem;
+  --spacing-28.5: 7.125rem;
+  --spacing-30: 7.5rem;
+  --spacing-31.5: 7.875rem;
+  --spacing-33.25: 8.313rem;
+  --spacing-36.5: 9.125rem;
+  --spacing-37: 9.25rem;
+  --spacing-37.75: 9.438rem;
+  --spacing-39.5: 9.813rem;
+  --spacing-40.75: 10.188rem;
+  --spacign-41.25: 10.313rem;
+  --spacing-41.5: 10.375rem;
+  --spacing-45.5: 11.375rem;
+  --spacing-46: 11.5rem;
+  --spacing-49: 12.25rem;
+  --spacing-50.5: 12.625rem;
+  --spacing-50.75: 12.688rem;
+  --spacing-61: 15.25rem;
+  --spacing-65.5: 16.375rem;
+  --spacing-69.75: 17.438rem;
+  --spacing-70.5: 17.625rem;
+  --spacing-75: 18.75rem;
+  --spacing-75.75: 18.938rem;
+  --spacing-77.25: 19.313rem;
+  --spacing-77.5: 19.375rem;
+  --spacing-77.75: 19.438rem;
+  --spacing-78.25: 19.563rem;
+  --spacing-79.25: 19.813rem;
+  --spacing-81.75: 20.438rem;
+  --spacing-85: 21.25rem;
+  --spacing-86: 20.875rem;
+  --spacing-88: 22rem;
+  --spacing-90: 22.5rem;
+  --spacing-99.5: 24.875rem;
+  --spacing-102: 25.5rem;
+  --spacing-110.5: 27.625rem;
+  --spacing-112.5: 28.125rem;
+  --spacing-112.75: 28.188rem;
+  --spacing-117: 29.25rem;
+  --spacing-119.5: 29.875rem;
+  --spacing-121.5: 30.375rem;
+  --spacing-125: 31.25rem;
+  --spacing-126.75: 31.688rem;
+  --spacing-134: 33.5rem;
+  --spacing-135: 33.75rem;
+  --spacing-135.25: 33.813rem;
+  --spacing-152: 38rem;
+  --spacing-155: 38.75rem;
+  --spacing-162.5: 40.625rem;
+  --spacing-170: 42.5rem;
+  --spacing-182.75: 45.688rem;
+  --spacing-276: 69rem;
+  --spacing-277.75: 69.438rem;
+
+  /* colors */
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --color-blue-900: #0b0d17;
+  --color-blue-300: #D0d6f9;
+  
+
+  /* text format */
+  --text-preset-1-medium: 3rem;
+  --text-preset-1-medium--line-height: 1.1;
+  --text-preset-1-medium--letter-spacing: 0rem;
+  --text-preset-1-medium--font-weight: 500;
+
+
+  /* radius */
+  --radius-5px: 0.313rem;
+  --radius-15px: 0.938rem;
+}
+
+body {
+  font-family: 'rubik', sans-serif;
+  background-color: var(--color-white);
+}

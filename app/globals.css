@@ -10,13 +10,16 @@
   --spacing-1.75: 0.438rem;
   --spacing-2.25: 0.563rem;
   --spacing-4.5: 1.125rem;
+  --spacing-7.25: 1.813rem;
   --spacing-8.5: 2.125rem;
   --spacing-8.75: 2.188rem;
   --spacing-9.25: 2.313rem;
   --spacing-11.75: 2.938rem;
   --spacing-12.25: 3.063rem;
+  --spacing-13.5: 3.375rem;
   --spacing-17.75: 4.438rem;
   --spacing-18: 4.5rem;
+  --spacing-21.75: 5.438rem;
   --spacing-25: 6.25rem;
   --spacing-25.5: 6.375rem;
   --spacing-27.76: 6.938rem;
@@ -38,6 +41,7 @@
   --spacing-50.75: 12.688rem;
   --spacing-61: 15.25rem;
   --spacing-65.5: 16.375rem;
+  --spacing-68: 17rem;
   --spacing-69.75: 17.438rem;
   --spacing-70.5: 17.625rem;
   --spacing-75: 18.75rem;
@@ -52,6 +56,7 @@
   --spacing-86: 20.875rem;
   --spacing-88: 22rem;
   --spacing-90: 22.5rem;
+  --spacing-95.5: 23.875rem;
   --spacing-99.5: 24.875rem;
   --spacing-102: 25.5rem;
   --spacing-110.5: 27.625rem;
@@ -62,14 +67,19 @@
   --spacing-121.5: 30.375rem;
   --spacing-125: 31.25rem;
   --spacing-126.75: 31.688rem;
+  --spacing-128: 32rem;
   --spacing-134: 33.5rem;
   --spacing-135: 33.75rem;
   --spacing-135.25: 33.813rem;
+  --spacing-140: 35rem;
   --spacing-152: 38rem;
   --spacing-155: 38.75rem;
+  --spacing-158: 39.5rem;
+  --spacing-160: 40rem;
   --spacing-162.5: 40.625rem;
   --spacing-170: 42.5rem;
   --spacing-182.75: 45.688rem;
+  --spacing-184: 46rem;
   --spacing-276: 69rem;
   --spacing-277.75: 69.438rem;
 
@@ -78,11 +88,16 @@
   --color-black: #000000;
   --color-blue-900: #0b0d17;
   --color-blue-300: #d0d6f9;
+  --color-slate-975: #0b0d17;
 
   /* text format */
   --text-preset-1: 9rem;
-  --text-preset-1--line-height: 171.9%;
+  --text-preset-1--line-height: 2;
   --text-preset-1--letter-spacing: 0rem;
+
+  --text-preset-1-mobile: 5rem;
+  --text-preset-1-mobile--line-height: 1.15;
+  --text-preset-1-mobile--letter-spacing: 0rem;
 
   --text-preset-2: 6.25rem;
   --text-preset-2--line-height: 114.6%;
@@ -96,13 +111,21 @@
   --text-preset-4--line-height: 36.7%;
   --text-preset-4--letter-spacing: 0rem;
 
+  --text-preset-4-mobile: 1.125rem;
+  --text-preset-4-mobile--line-height: 36.7%;
+  --text-preset-4-mobile--letter-spacing: 0rem;
+
   --text-preset-5: 1.75rem;
   --text-preset-5--line-height: 33.6%;
   --text-preset-5--letter-spacing: 0.25rem;
 
   --text-preset-6: 1.75rem;
-  --text-preset-6--line-height: 32.1%;
+  --text-preset-6--line-height: 1.19;
   --text-preset-6--letter-spacing: 0rem;
+
+  --text-preset-6-mobile: 1rem;
+  --text-preset-6-mobile--line-height: 1.19;
+  --text-preset-6-mobile--letter-spacing: 0rem;
 
   --text-preset-7: 0.875rem;
   --text-preset-7--line-height: 16.8%;
@@ -116,28 +139,51 @@
   --text-preset-9--line-height: 180%;
   --text-preset-9--letter-spacing: 0rem;
 
+  --text-preset-9-mobile: 0.938rem;
+  --text-preset-9-mobile--line-height: 225%;
+  --text-preset-9-mobile--letter-spacing: 0rem;
+
   /* radius */
   --radius-5px: 0.313rem;
   --radius-15px: 0.938rem;
-}
 
-@layer utilities {
-  .text-preset-4 {
-    font-size: var(--text-preset-4);
-    line-height: var(--text-preset-4--line-height);
-    letter-spacing: var(--text-preset-4--letter-spacing);
-    font-family: 'Bellefair', sans-serif;
-  }
-
-  .text-preset-6 {
-    font-size: var(--text-preset-6);
-    line-height: var(--text-preset-6--line-height);
-    letter-spacing: var(--text-preset-6--letter-spacing);
-    font-family: 'Bellefair', sans-serif;
-  }
+  --font-bellefair: 'Bellefair', sans-serif;
+  --font-barlow-condensed: 'Barlow Condensed', sans-serif;
 }
 
 body {
-  font-family: 'Barlow', sans-serif;
+  font-family: 'Barlow Condensed', sans-serif;
   background-color: var(--color-white);
+}
+
+@keyframes fade-in-right {
+  0% {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+  /* Remove intermediate 25%, 50%, and 75% keyframes */
+  100% {
+    opacity: 1;
+    transform: translateX(0%);
+  }
+}
+
+@keyframes fade-in-left {
+  0% {
+    opacity: 1;
+    transform: translateX(0%);
+  }
+  /* Remove intermediate 25%, 50%, and 75% keyframes */
+  100% {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+}
+
+.fade-in-right {
+  animation: fade-in-right 0.6s ease-in-out forwards;
+}
+
+.fade-in-left {
+  animation: fade-in-left 0.6s ease-in-out forwards;
 }

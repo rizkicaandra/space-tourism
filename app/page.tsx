@@ -1,3 +1,11 @@
+import Hero from './components/Hero';
+import Navbar from './components/Navbar';
+
 export default function Home() {
-  return <h1 className='text-preset-1'>heelo</h1>;
+  return (
+    <div className='h-screen w-full bg-[url("/home/background-home-mobile.jpg")] bg-cover bg-center bg-no-repeat md:bg-[url("/home/background-home-tablet.jpg")] xl:bg-[url("/home/background-home-desktop.jpg")]'>
+      <Navbar />
+      <Hero />
+    </div>
+  );
 }

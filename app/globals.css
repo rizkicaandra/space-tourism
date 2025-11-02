@@ -10,16 +10,20 @@
   --spacing-1.75: 0.438rem;
   --spacing-2.25: 0.563rem;
   --spacing-4.5: 1.125rem;
+  --spacing-4.75: 1.188rem;
+  --spacing-6.5: 1.625rem;
   --spacing-7.25: 1.813rem;
   --spacing-8.5: 2.125rem;
   --spacing-8.75: 2.188rem;
   --spacing-9.25: 2.313rem;
+  --spacing-10.5: 2.625rem;
   --spacing-11.75: 2.938rem;
   --spacing-12.25: 3.063rem;
   --spacing-13.5: 3.375rem;
   --spacing-17.75: 4.438rem;
   --spacing-18: 4.5rem;
   --spacing-21.75: 5.438rem;
+  --spacing-23: 5.75rem;
   --spacing-25: 6.25rem;
   --spacing-25.5: 6.375rem;
   --spacing-27.76: 6.938rem;
@@ -29,6 +33,7 @@
   --spacing-33.25: 8.313rem;
   --spacing-36.5: 9.125rem;
   --spacing-37: 9.25rem;
+  --spacing-37.5: 9.375rem;
   --spacing-37.75: 9.438rem;
   --spacing-39.5: 9.813rem;
   --spacing-40.75: 10.188rem;
@@ -40,6 +45,7 @@
   --spacing-50.5: 12.625rem;
   --spacing-50.75: 12.688rem;
   --spacing-61: 15.25rem;
+  --spacing-61.25: 15.313rem;
   --spacing-65.5: 16.375rem;
   --spacing-68: 17rem;
   --spacing-69.75: 17.438rem;
@@ -60,10 +66,12 @@
   --spacing-99.5: 24.875rem;
   --spacing-102: 25.5rem;
   --spacing-110.5: 27.625rem;
+  --spacing-111.25: 27.813rem;
   --spacing-112.5: 28.125rem;
   --spacing-112.75: 28.188rem;
   --spacing-117: 29.25rem;
   --spacing-119.5: 29.875rem;
+  --spacing-120: 30rem;
   --spacing-121.5: 30.375rem;
   --spacing-125: 31.25rem;
   --spacing-126.75: 31.688rem;
@@ -79,12 +87,14 @@
   --spacing-162.5: 40.625rem;
   --spacing-170: 42.5rem;
   --spacing-182.75: 45.688rem;
+  --spacing-183.5: 45.875rem;
   --spacing-184: 46rem;
   --spacing-276: 69rem;
+  --spacing-277.5: 69.375rem;
   --spacing-277.75: 69.438rem;
 
   /* colors */
-  --color-white: #ffffff;
+  --color-white: #fff;
   --color-black: #000000;
   --color-blue-900: #0b0d17;
   --color-blue-300: #d0d6f9;
@@ -103,6 +113,14 @@
   --text-preset-2--line-height: 114.6%;
   --text-preset-2--letter-spacing: 0rem;
 
+  --text-preset-2-tablet: 5rem;
+  --text-preset-2-tablet--line-height: 114.6%;
+  --text-preset-2-tablet--letter-spacing: 0rem;
+
+  --text-preset-2-mobile: 3.5rem;
+  --text-preset-2-mobile--line-height: 114.6%;
+  --text-preset-2-mobile--letter-spacing: 0rem;
+
   --text-preset-3: 3.5rem;
   --text-preset-3--line-height: 64.2%;
   --text-preset-3--letter-spacing: 0rem;
@@ -118,6 +136,10 @@
   --text-preset-5: 1.75rem;
   --text-preset-5--line-height: 33.6%;
   --text-preset-5--letter-spacing: 0.25rem;
+
+  --text-preset-5-tablet: 1.25rem;
+  --text-preset-5-tablet--line-height: 33.6%;
+  --text-preset-5-tablet--letter-spacing: 0.25rem;
 
   --text-preset-6: 1.75rem;
   --text-preset-6--line-height: 1.19;
@@ -143,12 +165,21 @@
   --text-preset-9-mobile--line-height: 225%;
   --text-preset-9-mobile--letter-spacing: 0rem;
 
+  --text-preset-9-tablet: 1rem;
+  --text-preset-9-tablet--line-height: 180%;
+  --text-preset-9-tablet--letter-spacing: 0rem;
+
+  --text-preset-9-desktop: 1.125rem;
+  --text-preset-9-desktop--line-height: 180%;
+  --text-preset-9-desktop--letter-spacing: 0rem;
+
   /* radius */
   --radius-5px: 0.313rem;
   --radius-15px: 0.938rem;
 
   --font-bellefair: 'Bellefair', sans-serif;
   --font-barlow-condensed: 'Barlow Condensed', sans-serif;
+  --font-barlow: 'Barlow', sans-serif;
 }
 
 body {

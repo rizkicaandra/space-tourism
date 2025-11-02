@@ -81,7 +81,7 @@ function Navbar() {
 
       {isOpen && (
         <div
-          className={`bg-slate-975/50 ${animation ? 'fade-in-right' : 'fade-in-left'} absolute top-0 right-0 flex h-screen w-14/20 flex-col items-end justify-start gap-12 pl-8 backdrop-blur-2xl`}
+          className={`bg-slate-975/50 ${animation ? 'fade-in-right' : 'fade-in-left'} absolute top-0 right-0 z-10 flex h-screen w-14/20 flex-col items-end justify-start gap-12 pl-8 backdrop-blur-2xl`}
         >
           <button
             type='button'

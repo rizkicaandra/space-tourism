@@ -9,7 +9,7 @@ function Hero() {
         <p className='text-preset-6-mobile font-bellefair md:text-preset-5 uppercase md:leading-8.5'>
           so, you want to travel to
         </p>
-        <h1 className='text-preset-1-mobile font-bellefair md:text-preset-1 uppercase md:leading-41.5'>
+        <h1 className='text-preset-1-mobile font-bellefair md:text-preset-1 text-white uppercase md:leading-41.5'>
           space
         </h1>
         <p className='text-preset-9-mobile md:text-preset-9 text-center md:leading-7.25 xl:text-start'>

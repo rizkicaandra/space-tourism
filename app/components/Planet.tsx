@@ -2,6 +2,7 @@
 import Image from 'next/image';
 import { useState, useEffect } from 'react';
 import PlanetTravel from './PlanetTravel';
+import Title from './Title';
 
 function Planet() {
   const [planetIndex, setPlanetIndex] = useState(0);
@@ -56,16 +57,13 @@ function Planet() {
   ];
 
   return (
-    <main className='m-6 md:m-10 xl:flex xl:items-center xl:justify-center'>
-      <div className='flex w-full flex-col items-center justify-center gap-6 xl:max-w-277.5 xl:items-start'>
+    <main className='m-6 md:m-10 xl:mt-12 xl:ml-44 xl:flex xl:items-center xl:justify-start'>
+      <div className='flex w-full flex-col items-center justify-center gap-6 xl:items-start'>
         {/* title */}
-        <h1 className='text-preset-8 md:text-preset-5-tablet xl:text-preset-5 leading-4.75 text-white uppercase md:self-start'>
-          <span className='mr-6 font-bold text-white/25'>01</span>pick your
-          destination
-        </h1>
+        <Title number='01' title='Pick your destination' className='' />
 
         {/* content */}
-        <div className='flex flex-col items-center justify-center gap-8 xl:min-h-183.5 xl:flex-row xl:gap-10'>
+        <div className='flex flex-col items-center justify-center gap-8 xl:mt-6 xl:w-full xl:flex-row xl:justify-start xl:gap-10 2xl:gap-55'>
           {/* planet image */}
           <div
             className={`my-6.5 transition-opacity duration-700 md:my-10.5 xl:mx-7.25 ${planetIndex !== currentPlanet ? 'opacity-0' : 'opacity-100'}`}

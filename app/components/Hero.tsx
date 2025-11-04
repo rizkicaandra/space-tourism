@@ -3,7 +3,7 @@ import { useRouter } from 'next/navigation';
 function Hero() {
   const router = useRouter();
   return (
-    <main className='m-6 flex flex-col items-center justify-center md:mx-10 md:my-32 md:gap-16 xl:min-h-158 xl:flex-row xl:items-end'>
+    <main className='m-6 flex flex-col items-center justify-center md:mx-10 md:my-32 md:gap-16 xl:my-0 xl:h-3/4 xl:flex-row xl:items-end'>
       {/* hero description */}
       <div className='flex flex-col items-center justify-center gap-6 text-blue-300 md:max-w-lg xl:items-start'>
         <p className='text-preset-6-mobile font-bellefair md:text-preset-5 uppercase md:leading-8.5'>

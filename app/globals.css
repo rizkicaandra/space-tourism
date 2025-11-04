@@ -11,15 +11,19 @@
   --spacing-2.25: 0.563rem;
   --spacing-4.5: 1.125rem;
   --spacing-4.75: 1.188rem;
+  --spacing-5.25: 1.313rem;
   --spacing-6.5: 1.625rem;
+  --spacing-6.75: 1.688rem;
   --spacing-7.25: 1.813rem;
   --spacing-8.5: 2.125rem;
   --spacing-8.75: 2.188rem;
   --spacing-9.25: 2.313rem;
   --spacing-10.5: 2.625rem;
+  --spacing-11.5: 2.875rem;
   --spacing-11.75: 2.938rem;
   --spacing-12.25: 3.063rem;
   --spacing-13.5: 3.375rem;
+  --spacing-16.75: 4.188rem;
   --spacing-17.75: 4.438rem;
   --spacing-18: 4.5rem;
   --spacing-21.75: 5.438rem;
@@ -46,6 +50,7 @@
   --spacing-50.75: 12.688rem;
   --spacing-61: 15.25rem;
   --spacing-61.25: 15.313rem;
+  --spacing-64.5: 16.125rem;
   --spacing-65.5: 16.375rem;
   --spacing-68: 17rem;
   --spacing-69.75: 17.438rem;
@@ -58,10 +63,16 @@
   --spacing-78.25: 19.563rem;
   --spacing-79.25: 19.813rem;
   --spacing-81.75: 20.438rem;
+  --spacing-82: 20.5rem;
+  --spacing-83: 20.75rem;
+  --spacing-84: 21rem;
   --spacing-85: 21.25rem;
   --spacing-86: 20.875rem;
   --spacing-88: 22rem;
+  --spacing-89: 22.25rem;
+  --spacing-89.25: 22.313rem;
   --spacing-90: 22.5rem;
+  --spacing-93.25: 23.313rem;
   --spacing-95.5: 23.875rem;
   --spacing-99.5: 24.875rem;
   --spacing-102: 25.5rem;
@@ -73,13 +84,20 @@
   --spacing-119.5: 29.875rem;
   --spacing-120: 30rem;
   --spacing-121.5: 30.375rem;
+  --spacing-122.75: 30.688rem;
   --spacing-125: 31.25rem;
   --spacing-126.75: 31.688rem;
   --spacing-128: 32rem;
+  --spacing-129: 32.25rem;
+  --spacing-130: 32.5rem;
+  --spacing-131: 32.75rem;
+  --spacing-132: 33rem;
+  --spacing-133: 33.25rem;
   --spacing-134: 33.5rem;
   --spacing-135: 33.75rem;
   --spacing-135.25: 33.813rem;
   --spacing-140: 35rem;
+  --spacing-150: 37.5rem;
   --spacing-152: 38rem;
   --spacing-155: 38.75rem;
   --spacing-158: 39.5rem;
@@ -89,9 +107,12 @@
   --spacing-182.75: 45.688rem;
   --spacing-183.5: 45.875rem;
   --spacing-184: 46rem;
+  --spacing-192: 48rem;
   --spacing-276: 69rem;
   --spacing-277.5: 69.375rem;
   --spacing-277.75: 69.438rem;
+  --spacing-350: 87.5rem;
+  --spacing-400: 100rem;
 
   /* colors */
   --color-white: #fff;
@@ -125,9 +146,21 @@
   --text-preset-3--line-height: 64.2%;
   --text-preset-3--letter-spacing: 0rem;
 
+  --text-preset-3-tablet: 2.5rem;
+  --text-preset-3-tablet--line-height: 64.2%;
+  --text-preset-3-tablet--letter-spacing: 0rem;
+
+  --text-preset-3-mobile: 1.5rem;
+  --text-preset-3-mobile--line-height: 64.2%;
+  --text-preset-3-mobile--letter-spacing: 0rem;
+
   --text-preset-4: 2rem;
   --text-preset-4--line-height: 36.7%;
   --text-preset-4--letter-spacing: 0rem;
+
+  --text-preset-4-tablet: 1.5rem;
+  --text-preset-4-tablet--line-height: 36.7%;
+  --text-preset-4-tablet--letter-spacing: 0rem;
 
   --text-preset-4-mobile: 1.125rem;
   --text-preset-4-mobile--line-height: 36.7%;

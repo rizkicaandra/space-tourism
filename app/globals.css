@@ -214,7 +214,7 @@
 
 body {
   font-family: 'Barlow Condensed', sans-serif;
-  background-color: var(--color-white);
+  background-color: var(--color-blue-950);
 }
 
 @keyframes fade-in-right {

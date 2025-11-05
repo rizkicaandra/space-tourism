@@ -33,7 +33,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [GitHub](https://github.com/rizkicaandra/space-tourism)
-- Live Site URL: [Live Demo](https://friendly-brigadeiros-e5a0ff.netlify.app/)
+- Live Site URL: [Live Demo](https://eloquent-mooncake-7a39d0.netlify.app/)
 
 ## My process
 

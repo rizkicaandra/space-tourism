@@ -1,9 +1,5 @@
 @import 'tailwindcss';
 
-:root {
-  /* --shadow-custom-button: 0 8px 8px -4px rgba(73, 93, 207, 0.05); */
-}
-
 @theme inline {
   /* spacing */
   --spacing-0.25: 0.063rem;
@@ -103,6 +99,7 @@
   --spacing-158: 39.5rem;
   --spacing-160: 40rem;
   --spacing-162.5: 40.625rem;
+  --spacing-169: 42.25rem;
   --spacing-170: 42.5rem;
   --spacing-182.75: 45.688rem;
   --spacing-183.5: 45.875rem;
